@@ -6,7 +6,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/kkrypt0nn/overscry)](https://goreportcard.com/report/github.com/kkrypt0nn/overscry)
 [![Last Commit Badge](https://img.shields.io/github/last-commit/kkrypt0nn/OverScry)](https://github.com/kkrypt0nn/OverScry/commits/main)
 
-> **Warning**
+> [!CAUTION]
 > This is a WIP tool that is **very unstable** and **not fully optimised**, use at your own care! This README will also be reworked.
 
 ### 🔍 The magic lens for Overpass queries
@@ -35,7 +35,7 @@ overscry gen --settings _examples/housenumber.yml
 
 #### Docker
 
-You can run the tool from the published [Docker image](https://hub.docker.com/r/kkrypt0nn/project-absence) using:
+You can run the tool from the published [Docker image](https://hub.docker.com/r/kkrypt0nn/overscry) using:
 
 ```bash
 docker run -v .:/data -it kkrypt0nn/overscry gen --settings /data/_examples/housenumber.yml
@@ -70,7 +70,7 @@ A lot of work is put into so that more arguments an features/tags are supported.
 
 ## Troubleshooting
 
-If you encounter issues while using Project Absence, consider the following:
+If you encounter issues while using OverScry, consider the following:
 
 - Ensure you are running the latest version
 - Report issues: Use the [GitHub issue tracker](https://github.com/kkrypt0nn/OverScry/issues)
