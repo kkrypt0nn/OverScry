@@ -1,33 +1,79 @@
 # OverScry
 
-
-[![Go Reference Badge](https://pkg.go.dev/badge/github.com/kkrypt0nn/OverScry.svg)](https://pkg.go.dev/github.com/kkrypt0nn/OverScry)
+[![Version Badge](https://img.shields.io/github/release/kkrypt0nn/overscry.svg)](https://github.com/kkrypt0nn/OverScry/releases)
+[![Docker Badge](https://img.shields.io/docker/v/kkrypt0nn/overscry?logo=docker)](https://hub.docker.com/r/kkrypt0nn/overscry)
 [![CI Badge](https://github.com/kkrypt0nn/OverScry/actions/workflows/ci.yml/badge.svg)](https://github.com/kkrypt0nn/OverScry/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/kkrypt0nn/overscry)](https://goreportcard.com/report/github.com/kkrypt0nn/overscry)
 [![Last Commit Badge](https://img.shields.io/github/last-commit/kkrypt0nn/OverScry)](https://github.com/kkrypt0nn/OverScry/commits/main)
-[![Conventional Commits Badge](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org/en/v1.0.0/)
 
-<!--
-A Go boilerplate made to simplify the creation of my projects
+> **Warning**
+> This is a WIP tool that is **very unstable** and **not fully optimised**, use at your own care! This README will also be reworked.
+
+### 🔍 The magic lens for Overpass queries
+
+OverScry is a tool designed to simplify the process of generating Overpass queries from a YML structure file. By taking a structured YML input that defines specific geographical data and search parameters, OverScry automatically converts it into a valid Overpass query. Overall it makes it easier for both beginners and experts to leverage Overpass API capabilities without needing to understand how to write complex raw queries.
 
 ## Getting Started
 
 ### Installation
 
-Explain how to proceed with the installation
+Installing the tool can currently only be done via Go and Docker.
+
+#### Go
+
+You need to have [Go](https://go.dev/dl/) installed. You can then install using:
+
+```bash
+go install github.com/kkrypt0nn/overscry@latest
+```
+
+You can then generate a query with the basic examples in the [examples](_examples) folder with
+
+```bash
+overscry gen --settings _examples/housenumber.yml
+```
+
+#### Docker
+
+You can run the tool from the published [Docker image](https://hub.docker.com/r/kkrypt0nn/project-absence) using:
+
+```bash
+docker run -v .:/data -it kkrypt0nn/overscry gen --settings /data/_examples/housenumber.yml
+```
 
 ### Example Usage
 
-Depending on the project, explain how to use it.
+After installing you can run the tool with
 
-## Documentation
+```bash
+overscry --help
+```
 
-Depending on the project, give a link to the documentation website.
+This will give you the list of commands and their respective flags.
+
+## Settings YML File
+
+The YML file for the settings of the query currently support only the following example structure
+
+```yml
+version: 0.0.1-dev
+author: Krypton (@kkrypt0nn)
+description: A query to get every house with number 1337
+node:
+  addr:
+    housenumber:
+      value: 1337
+      match: equals
+```
+
+A lot of work is put into so that more arguments an features/tags are supported. Please be patient for upcoming changes.
 
 ## Troubleshooting
 
-Explain how people can ask for help or get to some FAQs/troubleshooting pages.
+If you encounter issues while using Project Absence, consider the following:
 
--->
+- Ensure you are running the latest version
+- Report issues: Use the [GitHub issue tracker](https://github.com/kkrypt0nn/OverScry/issues)
 
 ## Contributing
 

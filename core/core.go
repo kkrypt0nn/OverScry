@@ -1,9 +1,22 @@
 package core
 
-import "github.com/kkrypt0nn/tangra"
+import (
+	"github.com/kkrypt0nn/tangra"
+)
 
-var Logger *tangra.Logger
+type CustomLogger struct {
+	*tangra.Logger
+}
+
+var Logger *CustomLogger
+
+func (l *CustomLogger) Success(message string) {
+	message = "${datetime} ${fg:green}SUCCESS${reset}: " + message
+	l.Println(message)
+}
 
 func init() {
-	Logger = tangra.NewLogger()
+	Logger = &CustomLogger{
+		tangra.NewLogger(),
+	}
 }

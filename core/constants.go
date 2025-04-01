@@ -2,7 +2,7 @@ package core
 
 const (
 	Name    = "overscry"
-	Version = "0.0.1-dev"
-	Author  = "Krypton (overscry@krypton.ninja)"
+	Version = "0.0.2-dev"
+	Author  = "Krypton (root@krypton.ninja)"
 	Website = "https://overscry.krypton.ninja"
 )

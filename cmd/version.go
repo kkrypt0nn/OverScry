@@ -5,8 +5,9 @@ import (
 )
 
 var versionCmd = &cobra.Command{
-	Use: "version",
-	Run: func(cmd *cobra.Command, args []string) {},
+	Use:   "version",
+	Short: "Shows the current version",
+	Run:   func(cmd *cobra.Command, args []string) {},
 }
 
 func init() {

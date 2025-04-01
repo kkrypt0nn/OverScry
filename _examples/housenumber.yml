@@ -1,0 +1,8 @@
+version: 0.0.1-dev
+author: Krypton (@kkrypt0nn)
+description: A query to get every house with number 1337
+node:
+  addr:
+    housenumber:
+      value: 1337
+      match: equals
