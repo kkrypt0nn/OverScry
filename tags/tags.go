@@ -3,20 +3,20 @@ package tags
 type MatchMethod string
 
 const (
-	Equals    MatchMethod = "="
-	NotEquals MatchMethod = "!="
-	Regex     MatchMethod = "~"
+	Equals    MatchMethod = "equals"
+	NotEquals MatchMethod = "not_equals"
+	Regex     MatchMethod = "regex"
 )
 
-func (m MatchMethod) ToOperator() MatchMethod {
+func (m MatchMethod) ToOperator() string {
 	switch m {
-	case "equals":
-		return Equals
-	case "not_equals":
-		return NotEquals
-	case "regex":
-		return Regex
+	case Equals:
+		return "="
+	case NotEquals:
+		return "!="
+	case Regex:
+		return "~"
 	default:
-		return Equals
+		return "="
 	}
 }

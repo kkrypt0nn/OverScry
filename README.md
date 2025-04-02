@@ -66,7 +66,7 @@ node:
       match: equals
 ```
 
-A lot of work is put into so that more arguments an features/tags are supported. Please be patient for upcoming changes.
+A lot of work is put into so that more arguments and features/tags are supported. Please be patient for upcoming changes.
 
 ## Troubleshooting
 

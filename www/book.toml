@@ -1,0 +1,7 @@
+[book]
+title = "OverScry"
+authors = ["Krypton"]
+description = "🔍 The magic lens for Overpass queries"
+language = "en"
+multilingual = false
+src = "src"
