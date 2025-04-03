@@ -1,6 +1,6 @@
 # `Feature`
 
-An example feature with the supported fields looks like
+An example feature looks like
 
 ```yml
 value: 1337

@@ -1,6 +1,6 @@
 # `Node`
 
-An example node with all the supported fields currently looks like
+An example node looks like
 
 ```yml
 node:
