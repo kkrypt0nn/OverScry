@@ -1,3 +1,7 @@
+<div align="center">
+
+<img alt="OverScry Logo" height="25%" width="25%" src="https://raw.githubusercontent.com/kkrypt0nn/OverScry/refs/heads/main/assets/logo.png" />
+
 # OverScry
 
 [![Version Badge](https://img.shields.io/github/release/kkrypt0nn/overscry.svg)](https://github.com/kkrypt0nn/OverScry/releases)
@@ -5,6 +9,8 @@
 [![CI Badge](https://github.com/kkrypt0nn/OverScry/actions/workflows/ci.yml/badge.svg)](https://github.com/kkrypt0nn/OverScry/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kkrypt0nn/overscry)](https://goreportcard.com/report/github.com/kkrypt0nn/overscry)
 [![Last Commit Badge](https://img.shields.io/github/last-commit/kkrypt0nn/OverScry)](https://github.com/kkrypt0nn/OverScry/commits/main)
+
+</div>
 
 > [!CAUTION]
 > This is a WIP tool that is **very unstable** and **not fully optimised**, use at your own care! This README will also be reworked.
