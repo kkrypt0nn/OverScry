@@ -39,7 +39,7 @@ type Addr struct {
 	Full *Feature `yaml:"full,omitempty"`
 
 	// For countries using hamlet, subdistrict, district, province, state, county
-
+	//
 	// Hamlet represents the hamlet of the object. In France, some addresses use hamlets instead of street names, use the generic [Addr.Place] instead.
 	Hamlet *Feature `yaml:"hamlet,omitempty"`
 	// Suburb represents the name of the settlement. If an address exists several times in a city you have to add it.
@@ -107,11 +107,15 @@ func (a *Addr) UnmarshalYAML(unmarshal func(interface{}) error) error {
 			fieldVal.Set(tempField)
 			feature := fieldVal.Interface().(*Feature)
 			feature.Tag = strings.ToLower(field.Name)
-			feature.Prefix = helpers.Ptr("addr")
+			feature.Prefix = helpers.Ptr(a.GetTag())
 		}
 	}
 
 	return nil
+}
+
+func (a *Addr) GetTag() string {
+	return "addr"
 }
 
 func (a *Addr) ToOQL() string {

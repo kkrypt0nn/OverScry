@@ -11,5 +11,6 @@
   - [Addr](./settings_yml_file/structure/addr.md)
   - [Aerialway](./settings_yml_file/structure/aerialway.md)
   - [Aeroway](./settings_yml_file/structure/aeroway.md)
+  - [Amenity](./settings_yml_file/structure/amenity.md)
   - [Feature](./settings_yml_file/structure/feature.md)
   - [Node](./settings_yml_file/structure/node.md)

@@ -65,15 +65,19 @@ func (a *Aeroway) UnmarshalYAML(unmarshal func(interface{}) error) error {
 				validKeys = append(validKeys, k)
 			}
 			sort.Strings(validKeys)
-			return fmt.Errorf("invalid aeroway value: %q (allowed: %s)", val, strings.Join(validKeys, ", "))
+			return fmt.Errorf("invalid %s value: %q (allowed: %s)", a.GetTag(), val, strings.Join(validKeys, ", "))
 		}
 	}
-	f.Tag = "aeroway"
+	f.Tag = a.GetTag()
 
 	*a = Aeroway(f)
 	return nil
 }
 
-func (a Aeroway) ToOQL() string {
-	return Feature(a).ToOQL()
+func (a *Aeroway) GetTag() string {
+	return "aeroway"
+}
+
+func (a *Aeroway) ToOQL() string {
+	return Feature(*a).ToOQL()
 }

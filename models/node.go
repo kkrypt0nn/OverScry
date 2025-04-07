@@ -12,6 +12,7 @@ type Node struct {
 	Addr      *tags.Addr      `yaml:"addr,omitempty"`
 	Aerialway *tags.Aerialway `yaml:"aerialway,omitempty"`
 	Aeroway   *tags.Aeroway   `yaml:"aeroway,omitempty"`
+	Amenity   *tags.Amenity   `yaml:"amenity,omitempty"`
 }
 
 func (n *Node) ToOQL() string {

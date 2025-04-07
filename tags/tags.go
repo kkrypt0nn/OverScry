@@ -1,6 +1,7 @@
 package tags
 
 type Tag interface {
+	GetTag() string
 	ToOQL() string
 }
 
