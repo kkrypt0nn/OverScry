@@ -1,5 +1,9 @@
 package tags
 
+type Tag interface {
+	ToOQL() string
+}
+
 type MatchMethod string
 
 const (

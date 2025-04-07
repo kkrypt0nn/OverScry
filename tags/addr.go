@@ -3,6 +3,8 @@ package tags
 import (
 	"reflect"
 	"strings"
+
+	"github.com/kkrypt0nn/overscry/helpers"
 )
 
 // Addr is used to provide address information for a building, facility or any other object that has an address.
@@ -67,6 +69,10 @@ type Addr struct {
 	County *Feature `yaml:"county,omitempty"`
 }
 
+func (a *Addr) GetPrefix() string {
+	return "addr"
+}
+
 func (a *Addr) UnmarshalYAML(unmarshal func(interface{}) error) error {
 	temp := &struct {
 		HouseNumber        *Feature `yaml:"housenumber,omitempty"`
@@ -105,7 +111,7 @@ func (a *Addr) UnmarshalYAML(unmarshal func(interface{}) error) error {
 			fieldVal.Set(tempField)
 			feature := fieldVal.Interface().(*Feature)
 			feature.Tag = strings.ToLower(field.Name)
-			feature.Prefix = "addr"
+			feature.Prefix = helpers.Ptr(a.GetPrefix())
 		}
 	}
 

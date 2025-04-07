@@ -1,10 +1,11 @@
 # `Feature`
 
-An example feature looks like
+An example feature with key `addr` looks like
 
 ```yml
-value: 1337
-match: equals
+addr:
+  value: 1337
+  match: equals
 ```
 
 The following fields are allowed

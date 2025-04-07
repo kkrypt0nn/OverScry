@@ -1,6 +1,6 @@
 # `Addr`
 
-An example addr looks like
+An addr is used to provide address information for a building, facility or any other object that has an address. Example:
 
 ```yml
 addr:

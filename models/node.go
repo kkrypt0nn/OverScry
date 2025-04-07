@@ -2,24 +2,28 @@ package models
 
 import (
 	"fmt"
+	"reflect"
 	"strings"
 
 	"github.com/kkrypt0nn/overscry/tags"
 )
 
 type Node struct {
-	Addr tags.Addr `yaml:"addr"`
+	Addr      *tags.Addr      `yaml:"addr,omitempty"`
+	Aerialway *tags.Aerialway `yaml:"aerialway,omitempty"`
 }
 
-func (n Node) ToOQL() string {
-	queryParts := []string{}
+func (n *Node) ToOQL() string {
+	var queryParts []string
 
-	if addrQuery := n.Addr.ToOQL(); addrQuery != "" {
-		queryParts = append(queryParts, addrQuery)
-	}
+	val := reflect.ValueOf(n).Elem()
+	t := val.Type()
 
-	if len(queryParts) == 0 {
-		return ""
+	for i := 0; i < t.NumField(); i++ {
+		fieldVal := val.Field(i)
+		if fieldVal.IsValid() && !fieldVal.IsNil() {
+			queryParts = append(queryParts, fieldVal.Interface().(tags.Tag).ToOQL())
+		}
 	}
 
 	return fmt.Sprintf("node%s;", strings.Join(queryParts, ""))

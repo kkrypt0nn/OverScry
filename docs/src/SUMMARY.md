@@ -9,5 +9,6 @@
 - [Introduction](./settings_yml_file/introduction.md)
 - [Structure](./settings_yml_file/structure/introduction.md)
   - [Addr](./settings_yml_file/structure/addr.md)
+  - [Aerialway](./settings_yml_file/structure/aerialway.md)
   - [Feature](./settings_yml_file/structure/feature.md)
   - [Node](./settings_yml_file/structure/node.md)

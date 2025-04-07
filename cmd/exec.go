@@ -43,14 +43,14 @@ var execCmd = &cobra.Command{
 		core.Logger.Success("Sending request to Overpass, waiting for the response...")
 		resp, err := http.Post(OVERPASS_API_URL, "application/x-www-form-urlencoded", strings.NewReader(formBody))
 		if err != nil {
-			core.Logger.Error("Error making POST request: " + err.Error())
+			core.Logger.Error("Failed making POST request: " + err.Error())
 			return
 		}
 
 		defer func() {
 			err := resp.Body.Close()
 			if err != nil {
-				core.Logger.Error("Error closing response body: " + err.Error())
+				core.Logger.Error("Failed closing response body: " + err.Error())
 			}
 		}()
 		if resp.StatusCode != http.StatusOK {
@@ -60,7 +60,7 @@ var execCmd = &cobra.Command{
 
 		body, err := io.ReadAll(resp.Body)
 		if err != nil {
-			core.Logger.Error("Error reading response body: " + err.Error())
+			core.Logger.Error("Failed reading response body: " + err.Error())
 			return
 		}
 
@@ -70,13 +70,13 @@ var execCmd = &cobra.Command{
 
 		err = json.Unmarshal(body, &temp)
 		if err != nil {
-			core.Logger.Error("Error unmarshalling response body: " + err.Error())
+			core.Logger.Error("Failed unmarshalling response body: " + err.Error())
 			return
 		}
 
 		prettyJSON, err := json.MarshalIndent(temp.Elements, "", "  ")
 		if err != nil {
-			core.Logger.Error("Error marshalling the elements with indentation: " + err.Error())
+			core.Logger.Error("Failed marshalling the elements with indentation: " + err.Error())
 			return
 		}
 
