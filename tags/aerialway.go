@@ -44,7 +44,7 @@ func (a *Aerialway) UnmarshalYAML(unmarshal func(interface{}) error) error {
 				validKeys = append(validKeys, k)
 			}
 			sort.Strings(validKeys)
-			return fmt.Errorf("Invalid aerialway value: %q (allowed: %s)", val, strings.Join(validKeys, ", "))
+			return fmt.Errorf("invalid aerialway value: %q (allowed: %s)", val, strings.Join(validKeys, ", "))
 		}
 	}
 	f.Tag = "aerialway"
