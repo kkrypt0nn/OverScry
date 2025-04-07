@@ -69,10 +69,6 @@ type Addr struct {
 	County *Feature `yaml:"county,omitempty"`
 }
 
-func (a *Addr) GetPrefix() string {
-	return "addr"
-}
-
 func (a *Addr) UnmarshalYAML(unmarshal func(interface{}) error) error {
 	temp := &struct {
 		HouseNumber        *Feature `yaml:"housenumber,omitempty"`
@@ -111,7 +107,7 @@ func (a *Addr) UnmarshalYAML(unmarshal func(interface{}) error) error {
 			fieldVal.Set(tempField)
 			feature := fieldVal.Interface().(*Feature)
 			feature.Tag = strings.ToLower(field.Name)
-			feature.Prefix = helpers.Ptr(a.GetPrefix())
+			feature.Prefix = helpers.Ptr("addr")
 		}
 	}
 

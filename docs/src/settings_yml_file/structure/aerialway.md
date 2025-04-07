@@ -10,5 +10,5 @@ aerialway:
 
 Only the following `value`s are allowed:
 
-* pylon
-* station
+* `pylon`
+* `station`

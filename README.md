@@ -84,7 +84,7 @@ If you encounter issues while using OverScry, consider the following:
 ## Contributing
 
 People may contribute by following the [Contributing Guidelines](./CONTRIBUTING.md) and
-the [Code of Conduct](./CODE_OF_CONDUCT.md)
+the [Code of Conduct](./CODE_OF_CONDUCT.md) once the tool is out of pre-releases, so once `v0.1.0` comes out.
 
 ## License
 

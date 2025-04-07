@@ -36,8 +36,8 @@ func (a *Aerialway) UnmarshalYAML(unmarshal func(interface{}) error) error {
 
 	if f.Value != nil {
 		val := strings.ToLower(*f.Value)
-		if aerialwayType, ok := validAerialwayTypes[val]; ok {
-			f.Value = helpers.Ptr(string(aerialwayType))
+		if _, ok := validAerialwayTypes[val]; ok {
+			f.Value = helpers.Ptr(val)
 		} else {
 			validKeys := make([]string, 0, len(validAerialwayTypes))
 			for k := range validAerialwayTypes {
