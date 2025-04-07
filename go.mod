@@ -1,6 +1,6 @@
 module github.com/kkrypt0nn/overscry
 
-go 1.24.1
+go 1.24.2
 
 require (
 	github.com/kkrypt0nn/tangra v1.1.0
