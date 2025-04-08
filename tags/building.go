@@ -501,7 +501,6 @@ func (b *Building) ToOQL() string {
 		}
 
 		if fieldVal.IsValid() && !fieldVal.IsNil() {
-			fmt.Println(fieldVal)
 			queryParts = append(queryParts, fieldVal.Interface().(*Feature).ToOQL())
 		}
 	}
