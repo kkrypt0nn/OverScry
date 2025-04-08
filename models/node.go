@@ -13,6 +13,9 @@ type Node struct {
 	Aerialway *tags.Aerialway `yaml:"aerialway,omitempty"`
 	Aeroway   *tags.Aeroway   `yaml:"aeroway,omitempty"`
 	Amenity   *tags.Amenity   `yaml:"amenity,omitempty"`
+	Barrier   *tags.Barrier   `yaml:"barrier,omitempty"`
+	Boundary  *tags.Boundary  `yaml:"boundary,omitempty"`
+	Building  *tags.Building  `yaml:"building,omitempty"`
 }
 
 func (n *Node) ToOQL() string {

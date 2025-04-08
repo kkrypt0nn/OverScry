@@ -27,3 +27,15 @@ An [`Aeroway`](./aeroway.md) with its fields.
 ### `amenity`
 
 An [`Amenity`](./amenity.md) with its fields.
+
+### `barrier`
+
+A [`Barrier`](./barrier.md) with its fields.
+
+### `boundary`
+
+A [`boundary`](./boundary.md) with its fields.
+
+### `building`
+
+A [`Building`](./building.md) with its fields.

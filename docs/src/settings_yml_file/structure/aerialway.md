@@ -10,5 +10,5 @@ aerialway:
 
 Only the following `value`s are allowed:
 
-* `pylon`
-* `station`
+* `pylon` - A pylon supporting the aerialway cable.
+* `station` - A station where passengers and/or goods can enter and/or leave the aerialway.

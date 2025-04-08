@@ -14,7 +14,7 @@ type AmenityType string
 
 const (
 	// Sustenance
-	//
+
 	// AmenityBar represents a purpose-built commercial establishment that sells alcoholic drinks to be consumed on the premises. They are characterised by a noisy and vibrant atmosphere, similar to a party and usually don't sell food.
 	AmenityBar AmenityType = "bar"
 	// AmenityBiergarten represents an open-air area where alcoholic beverages along with food is prepared and served.
@@ -33,7 +33,7 @@ const (
 	AmenityRestaurant AmenityType = "restaurant"
 
 	// Education
-	//
+
 	// AmenityCollege represents a campus or buildings of an institute of Further Education (also known as continuing education).
 	AmenityCollege AmenityType = "college"
 	// AmenityDancingSchool represents a dancing school or dance studio.
@@ -66,7 +66,7 @@ const (
 	AmenityUniversity AmenityType = "university"
 
 	// Transportation
-	//
+
 	// AmenityBicycleParking represents parking for bicycles.
 	AmenityBicycleParking AmenityType = "bicycle_parking"
 	// AmenityBicycleRepairStation represents general tools for self-service bicycle repairs, usually on the roadside; no service.
@@ -79,7 +79,7 @@ const (
 	AmenityBoatRental AmenityType = "boat_rental"
 	// AmenityBoatSharing represents a place to share a boat.
 	AmenityBoatSharing AmenityType = "boat_sharing"
-	// AmenityBusStation represents a bus station, which may also be tagged as public_transport=station.
+	// AmenityBusStation represents a bus station.
 	AmenityBusStation AmenityType = "bus_station"
 	// AmenityCarRental represents a place to rent a car.
 	AmenityCarRental AmenityType = "car_rental"
@@ -115,7 +115,7 @@ const (
 	AmenityWeighbridge AmenityType = "weighbridge"
 
 	// Financial
-	//
+
 	// AmenityATM represents an automated teller machine (ATM) or cashpoint: a device that provides the clients of a financial institution with access to financial transactions.
 	AmenityATM AmenityType = "atm"
 	// AmenityPaymentTerminal represents a self-service payment kiosk/terminal.
@@ -130,7 +130,7 @@ const (
 	AmenityPaymentCentre AmenityType = "payment_centre"
 
 	// Healthcare
-	//
+
 	// AmenityBabyHatch represents a place where a baby can be, out of necessity, anonymously left to be safely cared for and perhaps adopted.
 	AmenityBabyHatch AmenityType = "baby_hatch"
 	// AmenityClinic represents a medium-sized medical facility or health centre.
@@ -151,7 +151,7 @@ const (
 	AmenityVeterinary AmenityType = "veterinary"
 
 	// Entertainment, Arts & Culture
-	//
+
 	// AmenityArtsCentre represents a venue where a variety of arts are performed or conducted.
 	AmenityArtsCentre AmenityType = "arts_centre"
 	// AmenityBrothel represents an establishment specifically dedicated to prostitution.
@@ -192,11 +192,11 @@ const (
 	AmenityStudio AmenityType = "studio"
 	// AmenitySwingerclub represents a club where people meet to have a party and group sex.
 	AmenitySwingerclub AmenityType = "swingerclub"
-	// AmenityTheatre represents a theatre or opera house where live performances occur, such as plays, musicals and formal concerts. Use amenity=cinema for movie theaters.
+	// AmenityTheatre represents a theatre or opera house where live performances occur, such as plays, musicals and formal concerts. Use [AmenityCinema] for movie theaters.
 	AmenityTheatre AmenityType = "theatre"
 
 	// Public Service
-	//
+
 	// AmenityCourthouse represents a building home to a court of law, where justice is dispensed.
 	AmenityCourthouse AmenityType = "courthouse"
 	// AmenityFireStation represents a station of a fire brigade.
@@ -217,7 +217,7 @@ const (
 	AmenityTownhall AmenityType = "townhall"
 
 	// Facilities
-	//
+
 	// AmenityBBQ represents a BBQ or Barbecue, a permanently built grill for cooking food, most typically used outdoors by the public.
 	AmenityBBQ AmenityType = "bbq"
 	// AmenityBench represents a bench to sit down and relax a bit.
@@ -250,7 +250,7 @@ const (
 	AmenityWateringPlace AmenityType = "watering_place"
 
 	// Waste Management
-	//
+
 	// AmenitySanitaryDumpStation represents a place for depositing human waste from a toilet holding tank.
 	AmenitySanitaryDumpStation AmenityType = "sanitary_dump_station"
 	// AmenityRecycling represents recycling facilities (bottle banks, etc.).
@@ -263,7 +263,7 @@ const (
 	AmenityWasteTransferStation AmenityType = "waste_transfer_station"
 
 	// Others
-	//
+
 	// AmenityAnimalBoarding represents a facility where you, paying a fee, can bring your animal for a limited period of time (e.g. for holidays).
 	AmenityAnimalBoarding AmenityType = "animal_boarding"
 	// AmenityAnimalBreeding represents a facility where animals are bred, usually to sell them.
@@ -308,11 +308,9 @@ const (
 	AmenityPlaceOfWorship AmenityType = "place_of_worship"
 	// AmenityPublicBath represents a location where the public may bathe in common, such as a Japanese onsen, Turkish bath, or hot spring.
 	AmenityPublicBath AmenityType = "public_bath"
-	// AmenityPublicBuilding represents a generic public building (Do not use; see office=government).
-	AmenityPublicBuilding AmenityType = "public_building"
 	// AmenityRefugeeSite represents a human settlement sheltering refugees or internally displaced persons.
 	AmenityRefugeeSite AmenityType = "refugee_site"
-	// AmenityVendingMachine represents a machine selling goods such as food, tickets, or newspapers. The type of goods can be specified with vending=*.
+	// AmenityVendingMachine represents a machine selling goods such as food, tickets, or newspapers.
 	AmenityVendingMachine AmenityType = "vending_machine"
 )
 
@@ -469,7 +467,6 @@ var validAmenityTypes = map[string]AmenityType{
 	"place_of_mourning": AmenityPlaceOfMourning,
 	"place_of_worship":  AmenityPlaceOfWorship,
 	"public_bath":       AmenityPublicBath,
-	"public_building":   AmenityPublicBuilding,
 	"refugee_site":      AmenityRefugeeSite,
 	"vending_machine":   AmenityVendingMachine,
 }

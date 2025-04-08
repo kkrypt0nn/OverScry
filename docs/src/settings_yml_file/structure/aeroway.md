@@ -10,12 +10,12 @@ aeroway:
 
 Only the following `value`s are allowed:
 
-* `aerodrome`
-* `aircraft_crossing`
-* `gate`
-* `helipad`
-* `heliport`
-* `navigationaid`
-* `spaceport`
-* `terminal`
-* `windsock`
+* `aerodrome` - An aerodrome, airport or airfield.
+* `aircraft_crossing` - A point where the flow of traffic is impacted by crossing aircraft.
+* `gate` - The bounded space, inside the airport terminal, where passengers wait before boarding their flight.
+* `helipad` - A landing area or platform designed for helicopters.
+* `heliport` - A special aerodrome built for helicopters.
+* `navigationaid` - A facility that supports visual navigation for aircraft.
+* `spaceport` - A spaceport or cosmodrome: a site for launching or receiving spacecraft.
+* `terminal` - An airport passenger building.
+* `windsock` - An object that shows wind direction and speed.
