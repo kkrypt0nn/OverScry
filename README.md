@@ -4,6 +4,7 @@
 
 # OverScry
 
+[![Discord Badge](https://img.shields.io/discord/739934735387721768?logo=discord)](https://discord.gg/xj6y5ZaTMr)
 [![Version Badge](https://img.shields.io/github/release/kkrypt0nn/overscry.svg)](https://github.com/kkrypt0nn/OverScry/releases)
 [![Docker Badge](https://img.shields.io/docker/v/kkrypt0nn/overscry?logo=docker)](https://hub.docker.com/r/kkrypt0nn/overscry)
 [![CI Badge](https://github.com/kkrypt0nn/OverScry/actions/workflows/ci.yml/badge.svg)](https://github.com/kkrypt0nn/OverScry/actions)
@@ -59,7 +60,7 @@ This will give you the list of commands and their respective flags.
 
 ## Settings YML File
 
-The YML file for the settings of the query currently support only the following example structure
+The YML file for the settings has the following example structure
 
 ```yml
 version: 0.0.1-dev
@@ -79,7 +80,8 @@ A lot of work is put into so that more arguments and features/tags are supported
 If you encounter issues while using OverScry, consider the following:
 
 - Ensure you are running the latest version
-- Report issues: Use the [GitHub issue tracker](https://github.com/kkrypt0nn/OverScry/issues)
+- Join my Discord server [here](https://discord.gg/xj6y5ZaTMr)
+- Use the [GitHub issue tracker](https://github.com/kkrypt0nn/OverScry/issues)
 
 ## Contributing
 
