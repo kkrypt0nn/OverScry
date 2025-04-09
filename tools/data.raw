@@ -1,38 +1,7 @@
-building 	apartments 	A building arranged into individual dwellings, often on separate floors. May also have retail outlets on the ground floor.
-Apartments6levels.png
-building 	barracks 	Buildings built to house military personnel or laborers.
-Barracks-sweden.jpg
-building 	bungalow 	A single-storey detached small house, Dacha.
-Bungalow2.jpg
-building 	cabin 	A cabin is a small, roughly built house usually with a wood exterior and typically found in rural areas.
-Koch Cabin.JPG
-building 	detached 	A detached house, a free-standing residential building usually housing a single family.
-Residential House USA.JPG
-building 	annexe 	An annexe is a small self contained apartments, collages, or small residential building on the same property as the main residential unit.
-Craftsman with Backyard Cottage (Converted Garage).jpg
-building 	dormitory 	A shared building intended for college/university students (not a share room for multiple occupants as implied by the term in British English). Alternatively, use building=residential plus residential=university and loose the information that it is for students.
-Belgrade Dormitory.jpg
-building 	farm 	A residential building on a farm (farmhouse). For other buildings see below building=farm_auxiliary, building=barn, … If in your country farmhouse looks same as general residential house then you can tag as building=house as well. See also landuse=farmyard for the surrounding area
-Studna před č.1.,Holašovice.JPG
-building 	ger 	A permanent or seasonal round yurt or ger.
-Gurvger.jpg
-building 	hotel 	A building designed with separate rooms available for overnight accommodation. Normally used in conjunction with tourism=hotel for the hotel grounds including recreation areas and parking.
-Hcom 1097758 7 b.jpg
-building 	house 	A dwelling unit inhabited by a single household (a family or small group sharing facilities such as a kitchen). Houses forming half of a semi-detached pair, or one of a row of terraced houses, should share at least two nodes with joined neighbours, thereby defining the party wall between the properties.
-Emptyhouse.jpg
-building 	houseboat 	A boat used primarily as a home
-Houseboat- Dal Lake, srinagar Kashmir.JPG
-building 	residential 	A general tag for a building used primarily for residential purposes. Where additional detail is available consider using 'apartments', 'terrace', 'house', 'detached' or 'semidetached_house'.
-Buchengasse 19.JPG
-building 	semidetached_house 	A residential house that shares a common wall with another on one side. Typically called a "duplex" in American English.
-Semi-detached houses in West Street - geograph.org.uk - 788755.jpg
-building 	static_caravan 	A mobile home (semi)permanently left on a single site
-67elcona.JPG
-building 	stilt_house 	A building raised on piles over the surface of the soil or a body of water
-Inle-Yawnghwe.jpg
-building 	terrace 	A single way used to define the outline of a linear row of residential dwellings, each of which normally has its own entrance, which form a terrace ("row-house" or "townhouse" in North American English). Consider defining each dwelling separately using 'house'.
-Street of terraced housing.jpg
-building 	tree_house 	An accommodation, often designed as a small hut, sometimes also as a room or small apartment. Built on tree posts or on a natural tree. A tree house has no contact with the ground. Access via ladders, stairs or bridgeways.
-Proper tree house.jpg
-building 	trullo 	A stone hut with a conical roof.
-Alberobello BW 2016-10-16 13-43-03.jpg
+emergency	fire_service_inlet		A inlet that allows the fire brigade pump water into a building.
+emergency	fire_alarm_box		A device used for notifying a fire department of a fire.
+emergency	fire_extinguisher		An active fire protection device used to extinguish or control small fires, often in emergency situations.
+emergency	fire_hose		A high-pressure hose used to carry water or other fire retardant (such as foam) to a fire to extinguish it.
+emergency	fire_hydrant		An active fire protection measure, and a source of water provided in most urban, suburban, and rural areas with municipal water service to enable fire fighters to tap into the municipal water supply to assist in extinguishing a fire.
+emergency	water_tank		A large water basin or tank for a fire department to take water.
+emergency	suction_point		A preferred point to pump water off a river or other waters for a fire department.

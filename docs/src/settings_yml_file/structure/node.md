@@ -43,3 +43,7 @@ A [`Building`](./building.md) with its fields.
 ### `craft`
 
 A [`Craft`](./craft.md) with its fields.
+
+### `emergency`
+
+A [`Emergency`](./emergency.md) with its fields.

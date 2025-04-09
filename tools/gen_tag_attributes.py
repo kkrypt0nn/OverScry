@@ -65,14 +65,17 @@ func ({{FIRST_CHAR}} *{{CAPITALIZED_TAG}}) ToOQL() string {
 
 """
 
+
 try:
     _tag = sys.argv[1]
 except:
     print("Error: Please provide a tag as argument when executing the tool.")
     sys.exit(1337)
 
+
 _first_char = _tag[0].lower()
 _capitalized_tag = _tag.capitalize()
+
 
 replace_with = {
     "{{FIRST_CHAR}}": _first_char,
@@ -80,9 +83,12 @@ replace_with = {
     "{{CAPITALIZED_TAG}}": _capitalized_tag,
 }
 
+
 result = TEMPLATE
+
 
 for key in replace_with.keys():
     result = result.replace(key, replace_with[key])
+
 
 print(result)

@@ -3,7 +3,9 @@ class Item:
         self.key = k
         self.description = d
 
+
 items: list[Item] = []
+
 
 # Read the raw data gathered from the documentation
 with open("data.raw") as f:
@@ -17,5 +19,6 @@ with open("data.raw") as f:
         if not d.endswith("."):
             d = f"{d}."
         items.append(Item(line[1].strip(), d))
+
 
 print("\n".join([f"* `{item.key}` - {item.description}" for item in items]))

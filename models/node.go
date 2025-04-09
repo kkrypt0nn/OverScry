@@ -17,6 +17,7 @@ type Node struct {
 	Boundary  *tags.Boundary  `yaml:"boundary,omitempty"`
 	Building  *tags.Building  `yaml:"building,omitempty"`
 	Craft     *tags.Craft     `yaml:"craft,omitempty"`
+	Emergency *tags.Emergency `yaml:"emergency,omitempty"`
 }
 
 func (n *Node) ToOQL() string {
