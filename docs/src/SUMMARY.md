@@ -22,3 +22,4 @@
 - [Craft](./tags/craft.md)
 - [Emergency](./tags/emergency.md)
 - [Geological](./tags/geological.md)
+- [Healthcare](./tags/healthcare.md)
