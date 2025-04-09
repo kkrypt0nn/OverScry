@@ -4,7 +4,5 @@ description: A query to get apartments with 2 levels
 node:
   building:
     value: apartments
-    match: equals
     levels:
       value: 2
-      match: equals

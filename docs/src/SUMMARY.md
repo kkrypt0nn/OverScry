@@ -15,5 +15,6 @@
   - [Barrier](./settings_yml_file/structure/barrier.md)
   - [Boundary](./settings_yml_file/structure/boundary.md)
   - [Building](./settings_yml_file/structure/building.md)
+  - [Craft](./settings_yml_file/structure/craft.md)
   - [Feature](./settings_yml_file/structure/feature.md)
   - [Node](./settings_yml_file/structure/node.md)

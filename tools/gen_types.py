@@ -1,4 +1,10 @@
-tag_name = "barrier"
+import sys
+
+try:
+    tag_name = sys.argv[1]
+except:
+    print("Error: Please provide a tag as argument when executing the tool.")
+    sys.exit(1337)
 
 class Item:
     def __init__(self, t: str, k: str, d: str):
@@ -16,7 +22,10 @@ with open("data.raw") as f:
         line = line.replace("\t\t", "\t").split("\t")
         if len(line) != 3:
             continue
-        items.append(Item(line[0].strip(), line[1].strip(), line[2].strip()))
+        d = line[2].strip()
+        if not d.endswith("."):
+            d = f"{d}."
+        items.append(Item(line[0].strip(), line[1].strip(), d))
 
 for item in items:
     _const = f"{tag_name.capitalize()}{item.key.replace("_", " ").title().replace(" ", "")}"

@@ -39,3 +39,7 @@ A [`boundary`](./boundary.md) with its fields.
 ### `building`
 
 A [`Building`](./building.md) with its fields.
+
+### `craft`
+
+A [`Craft`](./craft.md) with its fields.
