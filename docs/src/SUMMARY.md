@@ -6,16 +6,19 @@
 
 # Settings YML File
 
-- [Introduction](./settings_yml_file/introduction.md)
-- [Structure](./settings_yml_file/structure/introduction.md)
-  - [Addr](./settings_yml_file/structure/addr.md)
-  - [Aerialway](./settings_yml_file/structure/aerialway.md)
-  - [Aeroway](./settings_yml_file/structure/aeroway.md)
-  - [Amenity](./settings_yml_file/structure/amenity.md)
-  - [Barrier](./settings_yml_file/structure/barrier.md)
-  - [Boundary](./settings_yml_file/structure/boundary.md)
-  - [Building](./settings_yml_file/structure/building.md)
-  - [Craft](./settings_yml_file/structure/craft.md)
-  - [Emergency](./settings_yml_file/structure/emergency.md)
-  - [Feature](./settings_yml_file/structure/feature.md)
-  - [Node](./settings_yml_file/structure/node.md)
+- [Introduction](./settings/introduction.md)
+- [Feature](./settings/feature.md)
+- [Node](./settings/node.md)
+
+# Tags
+
+- [Addr](./tags/addr.md)
+- [Aerialway](./tags/aerialway.md)
+- [Aeroway](./tags/aeroway.md)
+- [Amenity](./tags/amenity.md)
+- [Barrier](./tags/barrier.md)
+- [Boundary](./tags/boundary.md)
+- [Building](./tags/building.md)
+- [Craft](./tags/craft.md)
+- [Emergency](./tags/emergency.md)
+- [Geological](./tags/geological.md)

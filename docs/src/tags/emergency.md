@@ -1,6 +1,6 @@
 # `Emergency`
 
-A [`Feature`](./feature.md) that is used to tag emergency facilities and equipment.
+A [`Feature`](../settings/feature.md) that is used to tag emergency facilities and equipment.
 
 ```yml
 emergency:
@@ -32,6 +32,12 @@ Only the following `value`s are allowed:
 * `lifeguard` - A place where a lifeguard is on duty.
 * `life_ring` - A floating ring to throw out to someone who is struggling in water.
 
-#### Assembly point
+### Assembly point
 
 * `assembly_point` - A designated (safe) place where people can gather or must report to during an emergency or a fire drill.
+
+### Other structure
+
+* `phone` - An emergency telephone.
+* `siren` - A loud noise maker, such as an air raid siren or a tornado siren.
+* `drinking_water` - A facility that provides drinking water in emergency situations.

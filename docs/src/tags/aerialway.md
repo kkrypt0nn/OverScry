@@ -1,6 +1,6 @@
 # `Aerialway`
 
-A [`Feature`](./feature.md) that is used to tag different forms of transportation for people or goods by using aerial wires. Example:
+A [`Feature`](../settings/feature.md) that is used to tag different forms of transportation for people or goods by using aerial wires. Example:
 
 ```yml
 aerialway:

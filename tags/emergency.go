@@ -52,6 +52,15 @@ const (
 
 	// EmergencyAssemblyPoint represents a designated (safe) place where people can gather or must report to during an emergency or a fire drill.
 	EmergencyAssemblyPoint EmergencyType = "assembly_point"
+
+	// Other structure
+
+	// EmergencyPhone represents an emergency telephone.
+	EmergencyPhone EmergencyType = "phone"
+	// EmergencySiren represents a loud noise maker, such as an air raid siren or a tornado siren.
+	EmergencySiren EmergencyType = "siren"
+	// EmergencySiren represents a facility that provides drinking water in emergency situations.
+	EmergencyDrinkingWater EmergencyType = "drinking_water"
 )
 
 var validEmergencyTypes = map[string]EmergencyType{
@@ -76,6 +85,11 @@ var validEmergencyTypes = map[string]EmergencyType{
 
 	// Assembly point
 	"assembly_point": EmergencyAssemblyPoint,
+
+	// Other structure
+	"phone":          EmergencyPhone,
+	"siren":          EmergencySiren,
+	"drinking_water": EmergencyDrinkingWater,
 }
 
 // Emergency is used to tag emergency facilities and equipment.

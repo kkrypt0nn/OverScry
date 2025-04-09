@@ -1,6 +1,6 @@
 # `Amenity`
 
-A [`Feature`](./feature.md) that is used to tag facilities used by visitors and residents. For example: toilets, telephones, banks, pharmacies, cafes, parking and schools.
+A [`Feature`](../settings/feature.md) that is used to tag facilities used by visitors and residents. For example: toilets, telephones, banks, pharmacies, cafes, parking and schools.
 
 ```yml
 amenity:

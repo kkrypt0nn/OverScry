@@ -1,6 +1,6 @@
 # `Building`
 
-A [`Feature`](./feature.md) that is used to tag individual buildings or groups of connected buildings.
+A [`Feature`](../settings/feature.md) that is used to tag individual buildings or groups of connected buildings.
 
 ```yml
 building:
@@ -15,7 +15,7 @@ The following fields are allowed
 
 ## `architecture`
 
-A [`Feature`](./feature.md) representing the architectural style of a building.
+A [`Feature`](../settings/feature.md) representing the architectural style of a building.
 
 Only the following `value`s are allowed:
 
@@ -56,7 +56,7 @@ Only the following `value`s are allowed:
 
 ## `fireproof`
 
-A [`Feature`](./feature.md) representing the fire-resistance information.
+A [`Feature`](../settings/feature.md) representing the fire-resistance information.
 
 Only the following `value`s are allowed:
 
@@ -65,15 +65,15 @@ Only the following `value`s are allowed:
 
 ## `flats`
 
-A [`Feature`](./feature.md) representing the number of residential units (flats, apartments) in an apartment building (`apartments`), residential building (`residential`), house (`house`), detached house (`detached`) or similar building.
+A [`Feature`](../settings/feature.md) representing the number of residential units (flats, apartments) in an apartment building (`apartments`), residential building (`residential`), house (`house`), detached house (`detached`) or similar building.
 
 ## `levels`
 
-A [`Feature`](./feature.md) representing the number of visible levels (floors) in the building as used in the [Simple 3D buildings](https://wiki.openstreetmap.org/wiki/Simple_3D_Buildings) scheme.
+A [`Feature`](../settings/feature.md) representing the number of visible levels (floors) in the building as used in the [Simple 3D buildings](https://wiki.openstreetmap.org/wiki/Simple_3D_Buildings) scheme.
 
 ## `soft_storey`
 
-A [`Feature`](./feature.md) representing a building where any one level is significantly more flexible (less stiff) than those above and below it.
+A [`Feature`](../settings/feature.md) representing a building where any one level is significantly more flexible (less stiff) than those above and below it.
 
 Only the following `value`s are allowed:
 

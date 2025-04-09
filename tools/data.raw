@@ -1,7 +1,21 @@
-emergency	fire_service_inlet		A inlet that allows the fire brigade pump water into a building.
-emergency	fire_alarm_box		A device used for notifying a fire department of a fire.
-emergency	fire_extinguisher		An active fire protection device used to extinguish or control small fires, often in emergency situations.
-emergency	fire_hose		A high-pressure hose used to carry water or other fire retardant (such as foam) to a fire to extinguish it.
-emergency	fire_hydrant		An active fire protection measure, and a source of water provided in most urban, suburban, and rural areas with municipal water service to enable fire fighters to tap into the municipal water supply to assist in extinguishing a fire.
-emergency	water_tank		A large water basin or tank for a fire department to take water.
-emergency	suction_point		A preferred point to pump water off a river or other waters for a fire department.
+geological	moraine		Any accumulation of unconsolidated rock debris previously carried by a glacier.
+geological	outcrop		A place where the bedrock or superficial deposits previously covered under the soil have become locally exposed
+geological	fold		Planar surfaces, such as sedimentary strata, that are bent or curved ("folded")
+geological	palaeontological_site		A place with fossils.
+geological	volcanic_lava_field		An area with volcanic lava on the ground.
+geological	volcanic_vent		A hole through which the lava erupts.
+geological	glacial_erratic		A boulder deposited by a glacier.
+geological	rock_glacier		Rock glaciers are mixtures of rock and ice that move slowly downhill when active
+geological	giants_kettle		A regular hole in a rock created by the rotation of stones in the bed of a stream.
+geological	meteor_crater		A crater formed by the impact of a meteor.
+geological	hoodoo		A column of rock with a hat
+geological	columnar_jointing		Several hexagonal columns of rock
+geological	dyke		a sheet of rock that fills a fracture of a pre-existing rock body or when standing alone looking like a man made wall
+geological	monocline		Step-like fold in rock strata consisting of a zone of a dip comprised between ~65° and 90°
+geological	tor		A large, free-standing rock outcrop that rises abruptly
+geological	unconformity		A buried erosional surface separating two rock masses or strata of different ages
+geological	cone		A landform with a distinctly conical shape
+geological	sinkhole		A depression or hole in the ground caused by some form of collapse of the surface
+geological	pingo		Pingos are intrapermafrost ice-cored hills
+geological	inselberg		Inselberg are isolated rock hill, knob, ridge, or small mountain
+geological	limestone_pavement		A natural karst landform consisting of a flat surface of limestone

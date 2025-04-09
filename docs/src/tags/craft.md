@@ -1,6 +1,6 @@
 # `Craft`
 
-A [`Feature`](./feature.md) that is used to tag a place that produces or processes customised goods.
+A [`Feature`](../settings/feature.md) that is used to tag a place that produces or processes customised goods.
 
 ```yml
 craft:

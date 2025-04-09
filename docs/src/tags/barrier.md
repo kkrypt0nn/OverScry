@@ -1,6 +1,6 @@
 # `Barrier`
 
-A [`Feature`](./feature.md) that is used to tag barriers and obstacles that are usually involved by traveling.
+A [`Feature`](../settings/feature.md) that is used to tag barriers and obstacles that are usually involved by traveling.
 
 ```yml
 barrier:

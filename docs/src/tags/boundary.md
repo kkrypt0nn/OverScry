@@ -1,6 +1,6 @@
 # `Boundary`
 
-A [`Feature`](./feature.md) that is used to tag administrative and other boundaries.
+A [`Feature`](../settings/feature.md) that is used to tag administrative and other boundaries.
 
 ```yml
 boundary:

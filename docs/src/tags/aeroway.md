@@ -1,6 +1,6 @@
 # `Aeroway`
 
-A [`Feature`](./feature.md) that is used to tag aerodromes, airfields other ground facilities that support the operation of airplanes and helicopters.
+A [`Feature`](../settings/feature.md) that is used to tag aerodromes, airfields other ground facilities that support the operation of airplanes and helicopters.
 
 ```yml
 aeroway:

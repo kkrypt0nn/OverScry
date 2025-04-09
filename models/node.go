@@ -9,15 +9,16 @@ import (
 )
 
 type Node struct {
-	Addr      *tags.Addr      `yaml:"addr,omitempty"`
-	Aerialway *tags.Aerialway `yaml:"aerialway,omitempty"`
-	Aeroway   *tags.Aeroway   `yaml:"aeroway,omitempty"`
-	Amenity   *tags.Amenity   `yaml:"amenity,omitempty"`
-	Barrier   *tags.Barrier   `yaml:"barrier,omitempty"`
-	Boundary  *tags.Boundary  `yaml:"boundary,omitempty"`
-	Building  *tags.Building  `yaml:"building,omitempty"`
-	Craft     *tags.Craft     `yaml:"craft,omitempty"`
-	Emergency *tags.Emergency `yaml:"emergency,omitempty"`
+	Addr       *tags.Addr       `yaml:"addr,omitempty"`
+	Aerialway  *tags.Aerialway  `yaml:"aerialway,omitempty"`
+	Aeroway    *tags.Aeroway    `yaml:"aeroway,omitempty"`
+	Amenity    *tags.Amenity    `yaml:"amenity,omitempty"`
+	Barrier    *tags.Barrier    `yaml:"barrier,omitempty"`
+	Boundary   *tags.Boundary   `yaml:"boundary,omitempty"`
+	Building   *tags.Building   `yaml:"building,omitempty"`
+	Craft      *tags.Craft      `yaml:"craft,omitempty"`
+	Emergency  *tags.Emergency  `yaml:"emergency,omitempty"`
+	Geological *tags.Geological `yaml:"geological,omitempty"`
 }
 
 func (n *Node) ToOQL() string {
