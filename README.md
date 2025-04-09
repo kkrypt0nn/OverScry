@@ -4,9 +4,10 @@
 
 # OverScry
 
-[![Discord Badge](https://img.shields.io/discord/739934735387721768?logo=discord)](https://discord.gg/xj6y5ZaTMr)
+[![Discord Badge](https://img.shields.io/discord/1358456011316396295?logo=discord)](https://discord.gg/xj6y5ZaTMr)
 [![Version Badge](https://img.shields.io/github/release/kkrypt0nn/overscry.svg)](https://github.com/kkrypt0nn/OverScry/releases)
 [![Docker Badge](https://img.shields.io/docker/v/kkrypt0nn/overscry?logo=docker)](https://hub.docker.com/r/kkrypt0nn/overscry)
+
 [![CI Badge](https://github.com/kkrypt0nn/OverScry/actions/workflows/ci.yml/badge.svg)](https://github.com/kkrypt0nn/OverScry/actions)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kkrypt0nn/overscry)](https://goreportcard.com/report/github.com/kkrypt0nn/overscry)
 [![Last Commit Badge](https://img.shields.io/github/last-commit/kkrypt0nn/OverScry)](https://github.com/kkrypt0nn/OverScry/commits/main)
