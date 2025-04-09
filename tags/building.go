@@ -106,7 +106,7 @@ const (
 
 	// Civic/amenity
 
-	// BuildingBakehouse represents a building built for baking bread, often used with amenity=baking_oven and oven=wood_fired.
+	// BuildingBakehouse represents a building built for baking bread, often used with [AmenityBakingOven].
 	BuildingBakehouse BuildingType = "bakehouse"
 	// BuildingBridge represents a building used as a bridge, often referred to as a skyway.
 	BuildingBridge BuildingType = "bridge"

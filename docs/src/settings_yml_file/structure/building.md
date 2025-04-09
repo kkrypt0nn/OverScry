@@ -65,7 +65,7 @@ Only the following `value`s are allowed:
 
 ## `flats`
 
-A [`Feature`](./feature.md) representing the number of residential units (flats, apartments) in an apartment building ([`apartments`](#apartments)), residential building ([`residential`](#residential)), house ([`house`](#house)), detached house ([`detached`](#detached)) or similar building.
+A [`Feature`](./feature.md) representing the number of residential units (flats, apartments) in an apartment building (`apartments`), residential building (`residential`), house (`house`), detached house (`detached`) or similar building.
 
 ## `levels`
 
@@ -110,7 +110,7 @@ Only the following `value`s are allowed:
 ### Commercial
 
 * `commercial` - A building for non-specific commercial activities, not necessarily an office building.
-* `industrial` - A building for industrial purposes. Use [`warehouse`](#warehouse) if the purpose is known to be primarily for storage/distribution.
+* `industrial` - A building for industrial purposes. Use `warehouse` if the purpose is known to be primarily for storage/distribution.
 * `kiosk` - A small one-room retail building.
 * `office` - An office building.
 * `retail` - A building primarily used for selling goods that are sold to the public.
@@ -133,7 +133,7 @@ Only the following `value`s are allowed:
 
 ### Civic/amenity
 
-* `bakehouse` - A building built for baking bread, often used with amenity=baking_oven and oven=wood_fired.
+* `bakehouse` - A building built for baking bread, often used with `amenity.baking_oven`.
 * `bridge` - A building used as a bridge, often referred to as a skyway.
 * `civic` - A building created to house civic amenities such as community centres, libraries, and town halls.
 * `college` - A building designed for a college.

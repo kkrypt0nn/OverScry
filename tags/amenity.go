@@ -170,13 +170,13 @@ const (
 	AmenityExhibitionCentre AmenityType = "exhibition_centre"
 	// AmenityFountain represents a fountain for cultural / decorational / recreational purposes.
 	AmenityFountain AmenityType = "fountain"
-	// AmenityGambling represents a place for gambling, not being a shop=bookmaker, shop=lottery, amenity=casino, or leisure=adult_gaming_centre. Games that are covered by this definition include bingo and pachinko.
+	// AmenityGambling represents a place for gambling. Games that are covered by this definition include bingo and pachinko.
 	AmenityGambling AmenityType = "gambling"
 	// AmenityLoveHotel represents a love hotel, a type of short-stay hotel operated primarily for the purpose of allowing guests privacy for sexual activities.
 	AmenityLoveHotel AmenityType = "love_hotel"
 	// AmenityMusicVenue represents an indoor place to hear contemporary live music.
 	AmenityMusicVenue AmenityType = "music_venue"
-	// AmenityNightclub represents a place to drink and dance (nightclub). The German word is "Disco" or "Discothek". Please don't confuse this with the German "Nachtclub" which is most likely amenity=stripclub.
+	// AmenityNightclub represents a place to drink and dance, often called "Disco" or "Discothek" in Germany (not to be confused with "Nachtclub" for strip clubs).
 	AmenityNightclub AmenityType = "nightclub"
 	// AmenityPlanetarium represents a planetarium.
 	AmenityPlanetarium AmenityType = "planetarium"
@@ -186,7 +186,7 @@ const (
 	AmenitySocialCentre AmenityType = "social_centre"
 	// AmenityStage represents a raised platform for performers.
 	AmenityStage AmenityType = "stage"
-	// AmenityStripclub represents a place that offers striptease or lapdancing (for sexual services use amenity=brothel).
+	// AmenityStripclub represents a place that offers striptease or lapdancing (for sexual services use [AmenityBrothel]).
 	AmenityStripclub AmenityType = "stripclub"
 	// AmenityStudio represents a TV radio or recording studio.
 	AmenityStudio AmenityType = "studio"
@@ -203,7 +203,7 @@ const (
 	AmenityFireStation AmenityType = "fire_station"
 	// AmenityPolice represents a police station where police officers patrol from and that is a first point of contact for civilians.
 	AmenityPolice AmenityType = "police"
-	// AmenityPostBox represents a box for the reception of mail. Alternative mail-carriers can be tagged via operator=*.
+	// AmenityPostBox represents a box for the reception of mail.
 	AmenityPostBox AmenityType = "post_box"
 	// AmenityPostDepot represents a post depot or delivery office, where letters and parcels are collected and sorted prior to delivery.
 	AmenityPostDepot AmenityType = "post_depot"

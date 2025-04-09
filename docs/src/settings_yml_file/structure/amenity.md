@@ -19,7 +19,7 @@ Only the following `value`s are allowed:
 * `food_court` - An area with several different restaurant food counters and a shared eating area. Commonly found in malls, airports, etc.
 * `ice_cream` - An ice cream shop or ice cream parlour. A place that sells ice cream and frozen yoghurt over the counter.
 * `pub` - A place selling beer and other alcoholic drinks; may also provide food or accommodation (UK).
-* `restaurant` - A restaurant (not fast food, see [`fast_food`](#fast_food)).
+* `restaurant` - A restaurant (not fast food, see `fast_food`).
 
 ### Education
 
@@ -97,7 +97,7 @@ Only the following `value`s are allowed:
 * `events_venue` - A building specifically used for organizing events.
 * `exhibition_centre` - An exhibition centre.
 * `fountain` - A fountain for cultural, decorative, or recreational purposes.
-* `gambling` - A place for gambling, not including a shop=bookmaker, shop=lottery, amenity=casino, or leisure=adult_gaming_centre. Games covered by this definition include bingo and pachinko.
+* `gambling` - A place for gambling. Games covered by this definition include bingo and pachinko.
 * `love_hotel` - A short-stay hotel primarily for allowing guests privacy for sexual activities.
 * `music_venue` - An indoor place to hear contemporary live music.
 * `nightclub` - A place to drink and dance, often called "Disco" or "Discothek" in Germany (not to be confused with "Nachtclub" for strip clubs).
@@ -105,17 +105,17 @@ Only the following `value`s are allowed:
 * `public_bookcase` - A street furniture containing books. Take one or leave one.
 * `social_centre` - A place for free and not-for-profit activities.
 * `stage` - A raised platform for performers.
-* `stripclub` - A place offering striptease or lap dancing (for sexual services, use amenity=brothel).
+* `stripclub` - A place offering striptease or lap dancing (for sexual services, use `brothel`).
 * `studio` - A TV, radio, or recording studio.
 * `swingerclub` - A club where people meet to have a party and group sex.
-* `theatre` - A theatre or opera house where live performances occur, such as plays, musicals, and formal concerts (use [`cinema`](#cinema) for movie theaters).
+* `theatre` - A theatre or opera house where live performances occur, such as plays, musicals, and formal concerts (use `cinema`) for movie theaters).
 
 ### Public Service
 
 * `courthouse` - A building home to a court of law, where justice is dispensed.
 * `fire_station` - A station of a fire brigade.
 * `police` - A police station where police officers patrol from and that is a first point of contact for civilians.
-* `post_box` - A box for the reception of mail. Alternative mail carriers can be tagged via operator=*.
+* `post_box` - A box for the reception of mail.
 * `post_depot` - A post depot or delivery office, where letters and parcels are collected and sorted prior to delivery.
 * `post_office` - A post office building with postal services.
 * `prison` - A prison or jail where people are incarcerated before trial or after conviction.
