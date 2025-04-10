@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>OverScry WebAssembly</title>
+    </head>
+    <body>
+        <h1>OverScry WebAssembly</h1>
+
+        <textarea
+            id="yaml-input"
+            rows="10"
+            cols="80"
+            placeholder="Enter your YAML data here..."
+        ></textarea>
+        <button onclick="run()">Convert to OQL</button>
+
+        <pre id="output"></pre>
+
+        <script src="wasm_exec.js"></script>
+        <script>
+            const go = new Go();
+
+            async function run() {
+                const input = document.getElementById("yaml-input").value;
+                const result = await window.parseYAMLToOQL(input);
+                document.getElementById("output").textContent = result;
+            }
+
+            WebAssembly.instantiateStreaming(
+                fetch("overscry.wasm"),
+                go.importObject,
+            ).then((result) => {
+                go.run(result.instance);
+            });
+        </script>
+    </body>
+</html>

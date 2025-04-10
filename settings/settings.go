@@ -28,3 +28,12 @@ func LoadSettings(fileName string) (*Settings, error) {
 
 	return &s, nil
 }
+
+func LoadSettingsFromString(yml string) (*Settings, error) {
+	var s Settings
+	err := yaml.Unmarshal([]byte(yml), &s)
+	if err != nil {
+		return nil, err
+	}
+	return &s, nil
+}

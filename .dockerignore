@@ -1,5 +1,5 @@
 /.git
 /.github
-/_examples
-/docs
+/wasm
+/web
 /tools
