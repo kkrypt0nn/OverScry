@@ -13,10 +13,10 @@ wasm:
 
 website:
 	$(MAKE) wasm
-	-mkdir www && mkdir www/wasm
+	-mkdir www
+	cd web/book && mdbook build --dest-dir ../../www
+	-mkdir www/wasm
 	cp web/wasm/* www/wasm
-	cd web/book && mdbook build
-	cp -R web/book/book/ www
 
 install:
 	go install .
