@@ -17,6 +17,7 @@ website:
 	cd web/book && mdbook build --dest-dir ../../www
 	-mkdir www/wasm
 	cp web/wasm/* www/wasm
+	cd www && npx sscli --no-clean --base https://overscry.krypton.ninja
 
 install:
 	go install .
