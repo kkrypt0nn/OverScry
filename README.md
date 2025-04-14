@@ -23,6 +23,10 @@ OverScry is a tool designed to simplify the process of generating Overpass queri
 
 ## Getting Started
 
+> [!TIP]
+> There is a **web version** of the tool available, no installation required, just your browser.
+> Check it out [here](https://overscry.krypton.ninja/online/)
+
 ### Installation
 
 Installing the tool can currently only be done via Go and Docker.
@@ -33,12 +37,6 @@ You need to have [Go](https://go.dev/dl/) installed. You can then install using:
 
 ```bash
 go install github.com/kkrypt0nn/overscry@latest
-```
-
-You can then generate a query with the basic examples in the [examples](_examples) folder with
-
-```bash
-overscry gen --settings _examples/housenumber.yml
 ```
 
 #### Docker
@@ -59,22 +57,43 @@ overscry --help
 
 This will give you the list of commands and their respective flags.
 
+You can then simply generate a query with
+
+```bash
+overscry gen --settings _examples/housenumber.yml
+```
+
 ## Settings YML File
 
 The YML file for the settings has the following example structure
 
 ```yml
-version: 0.0.1-dev
-author: Krypton (@kkrypt0nn)
-description: A query to get every house with number 1337
+version: 0.0.7-dev
+author: "Krypton (@kkrypt0nn)"
+description: "A query to get apartments with 2 levels"
 node:
-  addr:
-    housenumber:
-      value: 1337
-      match: equals
+  building:
+    value: apartments
+    levels:
+      value: 2
 ```
 
-A lot of work is put into so that more arguments and features/tags are supported. Please be patient for upcoming changes.
+More details about the supported fields is available [here](https://overscry.krypton.ninja/settings/introduction.html).
+
+
+> [!NOTE]
+> A lot of work is put into so that more arguments and features/tags are supported. Please be patient for upcoming changes.
+
+## Supported Platforms
+
+OverScry works on the following platforms:
+
+- **Linux**
+- **macOS**
+- **Windows**
+- **Browser (via WebAssembly)** - See https://overscry.krypton.ninja/online/
+- **Docker**
+- **Android**
 
 ## Troubleshooting
 

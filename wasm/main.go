@@ -6,11 +6,12 @@ import (
 	"fmt"
 	"syscall/js"
 
+	"github.com/kkrypt0nn/overscry/core"
 	"github.com/kkrypt0nn/overscry/models"
 	"github.com/kkrypt0nn/overscry/settings"
 )
 
-func parseYAML(this js.Value, args []js.Value) any {
+func convertYAMLToOQL(this js.Value, args []js.Value) any {
 	if len(args) < 1 {
 		return js.ValueOf("Missing YAML input")
 	}
@@ -26,7 +27,12 @@ func parseYAML(this js.Value, args []js.Value) any {
 	return js.ValueOf(res)
 }
 
+func getVersion(this js.Value, args []js.Value) any {
+	return js.ValueOf(core.Version)
+}
+
 func main() {
-	js.Global().Set("parseYAMLToOQL", js.FuncOf(parseYAML))
+	js.Global().Set("convertYAMLToOQL", js.FuncOf(convertYAMLToOQL))
+	js.Global().Set("getVersion", js.FuncOf(getVersion))
 	select {}
 }
