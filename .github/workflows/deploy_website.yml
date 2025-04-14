@@ -28,6 +28,8 @@ jobs:
           mdbook-version: "latest"
       - name: Install static-sitemap-cli
         run: npm install static-sitemap-cli
+      - name: Install Tailwind CSS CLI
+        run: npm install tailwindcss @tailwindcss/cli
       - name: Build Website
         run: make website
       - name: Setup Pages

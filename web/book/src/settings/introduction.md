@@ -9,14 +9,14 @@ A lot of work is put into so that more arguments and features/tags are supported
 An example YML file looks like
 
 ```yml
-version: 0.0.1-dev
-author: Krypton (@kkrypt0nn)
-description: A query to get every house with number 1337
+version: 0.0.7-dev
+author: "Krypton (@kkrypt0nn)"
+description: "A query to get apartments with 2 levels"
 node:
-  addr:
-    housenumber:
-      value: 1337
-      match: equals
+  building:
+    value: apartments
+    levels:
+      value: 2
 ```
 
 The following fields are allowed

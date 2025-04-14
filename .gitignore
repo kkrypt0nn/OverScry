@@ -27,6 +27,7 @@ go.work.sum
 # Build files
 dist/
 www/
+web/online/output.css
 
 # WebAssembly file
-web/wasm/overscry.wasm
+web/online/overscry.wasm
