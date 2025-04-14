@@ -1,4 +1,4 @@
-version: 0.0.7-dev
+version: "0.0.7-dev"
 author: "Krypton (@kkrypt0nn)"
 description: "A query to get apartments with 2 levels"
 node:

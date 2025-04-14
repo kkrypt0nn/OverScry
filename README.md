@@ -68,7 +68,7 @@ overscry gen --settings _examples/housenumber.yml
 The YML file for the settings has the following example structure
 
 ```yml
-version: 0.0.7-dev
+version: "0.0.7-dev"
 author: "Krypton (@kkrypt0nn)"
 description: "A query to get apartments with 2 levels"
 node:

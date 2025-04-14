@@ -1,7 +1,7 @@
 var editor = ace.edit("editor");
-editor.setTheme("ace/theme/twilight");
+editor.setTheme("ace/theme/tomorrow_night");
 editor.getSession().setMode("ace/mode/yaml");
-editor.getSession().setValue(`version: 0.0.7-dev
+editor.getSession().setValue(`version: "0.0.7-dev"
 author: "Krypton (@kkrypt0nn)"
 description: "A query to get apartments with 2 levels"
 node:
@@ -11,7 +11,7 @@ node:
       value: 2`);
 
 var output = ace.edit("output");
-output.setTheme("ace/theme/twilight");
+output.setTheme("ace/theme/tomorrow_night");
 output.setOptions({
   readOnly: true,
   showLineNumbers: false,
