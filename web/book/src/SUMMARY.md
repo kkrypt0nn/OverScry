@@ -27,3 +27,4 @@
 - [Landuse](./tags/landuse.md)
 - [Leisure](./tags/leisure.md)
 - [ManMade](./tags/man_made.md)
+- [Military](./tags/military.md)

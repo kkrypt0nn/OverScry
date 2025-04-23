@@ -71,3 +71,7 @@ A [`Leisure`](../tags/leisure.md) tag with its fields.
 ### `man_made`
 
 A [`ManMade`](../tags/man_made.md) tag with its fields.
+
+### `military`
+
+A [`Military`](../tags/military.md) tag with its fields.
