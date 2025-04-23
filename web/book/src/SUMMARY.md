@@ -23,3 +23,7 @@
 - [Emergency](./tags/emergency.md)
 - [Geological](./tags/geological.md)
 - [Healthcare](./tags/healthcare.md)
+- [Historic](./tags/historic.md)
+- [Landuse](./tags/landuse.md)
+- [Leisure](./tags/leisure.md)
+- [ManMade](./tags/man_made.md)
