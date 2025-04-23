@@ -1,92 +1,58 @@
-healthcare	alternative		A facility where alternative or complementary medicine is practiced: e.g. acupuncture, chiropractic, naturopathy, etc.
-15 615
-3 629
-6
-healthcare	audiologist		A facility where an audiologist identifies and treats hearing problems.
-835
-122
-2
-healthcare	blood_bank		A center where blood gathered as a result of blood donation is stored and preserved for later use in blood transfusion
-324
-36
-3
-healthcare	blood_donation		Facility where you can donate blood, plasma and/or platelets, and possibly have stem cell samples taken
-1 497
-681
-21
-healthcare	clinic		A medical facility, with more staff than a doctor's office, that does not admit inpatients. Used in addition to tag:amenity=clinic.
-77 066
-45 884
-1 177
-healthcare	counselling		A facility where health counselling is provided, e.g. dietitian, nutrition, addiction.
-2 559
-585
-9
-healthcare	dentist		A dentist practice / surgery. Used in addition to amenity=dentist
-88 561
-16 337
-89
-healthcare	dialysis		Facility where people can get dialysis.
-733
-624
-9
-healthcare	doctor		A place to get medical attention or a check up from a physician. Used in addition to tag:amenity=doctors.
-105 659
-23 491
-283
-healthcare	hospice		A facility which provides palliative care to terminally ill people and support to their relatives.
-797
-1 013
-58
-healthcare	hospital		A hospital providing in-patient medical treatment, used in addition to tag:amenity=hospital.
-43 757
-73 070
-3 040
-healthcare	laboratory		A medical laboratory, a place which performs analysis and diagnostics on body fluids.
-18 192
-2 477
-42
-healthcare	midwife		A facility where healthcare is provided by a midwife, a health professional who cares for mothers and newborns around childbirth
-1 158
-198
-3
-healthcare	nurse		A facility where a trained health professional (nurse) provides healthcare, who is not a physician.
-2 807
-149
-5
-healthcare	occupational_therapist		A facility where an occupational therapist practices.
-1 482
-166
-3
-healthcare	optometrist		An optometrist's office
-4 377
-1 069
-3
-healthcare	physiotherapist		A facility where a physiotherapist practices physical therapy (kinesiology, exercise, mobilization, etc).
-19 797
-2 234
-13
-healthcare	podiatrist		The office of a podiatrist for the treatment of disorders of the foot, ankle, and lower extremities.
-3 845
-330
-0
-healthcare	psychotherapist		An office of a psychotherapist or clinical psychologist.
-7 409
-657
-14
-healthcare	rehabilitation		Medical rehabilitation facility, usually inpatient or residential
-2 274
-2 436
-179
-healthcare	sample_collection		Site or dedicated healthcare facility where samples of blood/urine/etc are obtained or collected for purpose of analyzing them for healthcare diagnostics
-1 119
-91
-0
-healthcare	speech_therapist		A speech therapist, a health specialist who deals with speech, voice, swallowing or hearing impairment.
-2 410
-161
-1
-healthcare	vaccination_centre		A healthcare facility specifically dedicated to administering vaccinations to individuals, to provide immunisation against infectious diseases.
-387
-89
-2
+historic	aircraft		A decommissioned aircraft which generally remains in one place.
+historic	anchor		A historic/retired anchor. Usually found in historic maritime areas.
+historic	archaeological_site		A place in which evidence of past activity is preserved.
+historic	battlefield		The site of a battle or military skirmish in the past.
+historic	bomb_crater		A bomb crater
+historic	boundary_stone		A historic physical marker that identifies a boundary
+historic	building		Unspecified historic building.
+historic	bullaun_stone		A stone with one or more depressions
+historic	cannon		A historic/retired cannon. Usually found on forts or battlefields.
+historic	castle		Used for various kinds of castles, palaces, fortresses, manors, stately homes, kremlins, shiros and other.
+historic	cattle_crush
+historic	charcoal_pile		Historic site of a charcoal pile. Often still in good condition in hilly forest areas.
+historic	church		A church with a historical value.
+historic	city_gate		A city gate within a city wall
+historic	creamery		A creamery is an industrial building where butter and sometimes cheese or ice-cream were made from milk. For rural communities, it also served as a social gathering point.
+historic	district		A designated historic district.
+historic	epigraph		A historic inscription on an object
+historic	farm		A historical farm, kept in its original state.
+historic	fort		A military fort, a stand-alone defensive structure which differs from a castle in that there is no permanent residence.
+historic	gallows		Remains of a gallows.
+historic	house		A historic house.
+historic	high_cross		An early medieaval standing cross, richly decorated, often with a ring surrounding the crossing point.
+historic	highwater_mark		A marker indicating a past flood or high water.
+historic	lavoir		Disused lavoir mapped for its historical value.
+historic	lime_kiln		Built structure which was used in the past to produce quicklime from limestone.
+historic	locomotive		A decommissioned locomotive which generally remains in one place
+historic	machine		A historic machine.
+historic	manor		Historic manors/mansions having different use today
+historic	memorial		Small memorials, usually remembering special persons, people who lost their lives in the wars, past events or missing places.
+historic	milestone		A historic marker that shows the distance to important destinations.
+historic	millstone		A large round stone used for grinding grain or other materials.
+historic	mine		Location of historic underground mine workings for minerals such as coal or lead.
+historic	minecart		A cart used to transport coal or ore from a mine.
+historic	monastery		Building/place that is a historically significant monastery.
+historic	monument		A memorial object, which is especially large, built to remember, show respect to a person or group of people or to commemorate an event.
+historic	mosque		A mosque with a historical and archaeological value.
+historic	ogham_stone		A stone with an Ogham script on it. They are most commonly found in Ireland as free standing stones, lying on the ground, recycled in buildings such as churches or as artefacts in museums.
+historic	optical_telegraph		Semaphore system
+historic	pa		A New Zealand Maori Pā
+historic	pillory		A pillory.
+historic	pound		A former amenity to hold stray or seized animals, often walled.
+historic	railway_car		A decommissioned railway car which generally remains in one place
+historic	round_tower		Slim, conical tower built as a bell tower and watchtower in Ireland.
+historic	ruins		Remains of structures that were once complete, but have fallen into partial or complete disrepair.
+historic	rune_stone		Stones, boulders or bedrock with historical runic inscriptions.
+historic	shieling		An abandoned mountain pasture
+historic	ship		A decommissioned ship/submarine which generally remains in one place
+historic	stećak		Specifies megalithic gravestone from medieval Bosnia.
+historic	stone		A stone shaped or placed by man with historical value.
+historic	tank		A decommissioned tank which generally remains in one place
+historic	temple		An ancient pagan temple in_situ and in various degree of preservation, such as Ziggurat, Egyptian temple, Mithraeum, Erechtheion, Buddhist, Meso-American and other ancient religious and rituals' temples, with a historical and archaeological value.
+historic	tomb		A structure where somebody has been buried.
+historic	tower		This property distinguishes a tower as historic
+historic	vehicle		A decommissioned vehicle which generally remains in one place
+historic	wayside_cross		A historical cross along a way, symbol of Christian faith.
+historic	wayside_shrine		A shrine often showing a religious depiction. Tag is used also for modern shrines.
+historic	wreck		A nautical craft that has been sunk or destroyed.
+historic	yes		Used to add the historic significance of the objects described by other tags.

@@ -55,3 +55,7 @@ A [`Geological`](../tags/geological.md) tag with its fields.
 ### `healthcare`
 
 A [`Healthcare`](../tags/healthcare.md) tag with its fields.
+
+### `historic`
+
+A [`Historic`](../tags/historic.md) tag with its fields.

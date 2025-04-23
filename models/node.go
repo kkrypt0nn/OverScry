@@ -20,6 +20,7 @@ type Node struct {
 	Emergency  *tags.Emergency  `yaml:"emergency,omitempty"`
 	Geological *tags.Geological `yaml:"geological,omitempty"`
 	Healthcare *tags.Healthcare `yaml:"healthcare,omitempty"`
+	Historic   *tags.Historic   `yaml:"historic,omitempty"`
 }
 
 func (n *Node) ToOQL() string {
