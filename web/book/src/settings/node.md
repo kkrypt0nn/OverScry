@@ -59,3 +59,7 @@ A [`Healthcare`](../tags/healthcare.md) tag with its fields.
 ### `historic`
 
 A [`Historic`](../tags/historic.md) tag with its fields.
+
+### `landuse`
+
+A [`Landuse`](../tags/landuse.md) tag with its fields.
