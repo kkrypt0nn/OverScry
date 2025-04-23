@@ -63,3 +63,7 @@ A [`Historic`](../tags/historic.md) tag with its fields.
 ### `landuse`
 
 A [`Landuse`](../tags/landuse.md) tag with its fields.
+
+### `leisure`
+
+A [`Leisure`](../tags/leisure.md) tag with its fields.
