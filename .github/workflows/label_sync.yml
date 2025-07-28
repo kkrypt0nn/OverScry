@@ -1,20 +1,22 @@
-name: Labeler
+name: Label Sync
 
 on:
   workflow_dispatch:
-  pull_request_target:
+  push:
     branches:
       - main
+    paths:
+      - ".github/labels.yaml"
 
 jobs:
-  labeler:
-    name: Labeler
+  label_sync:
+    name: Label Sync
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      pull-requests: write
     steps:
-      - name: Labeler
-        uses: actions/labeler@v5
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Sync Labels
+        uses: EndBug/label-sync@v2
         with:
-          configuration-path: .github/labeler.yml
+          config-file: .github/labels.yml
+          delete-other-labels: true
