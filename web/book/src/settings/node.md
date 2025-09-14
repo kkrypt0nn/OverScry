@@ -79,3 +79,7 @@ A [`Military`](../tags/military.md) tag with its fields.
 ### `natural`
 
 A [`Natural`](../tags/natural.md) tag with its fields.
+
+### `office`
+
+A [`Office`](../tags/office.md) tag with its fields.

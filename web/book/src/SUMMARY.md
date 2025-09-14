@@ -29,3 +29,4 @@
 - [ManMade](./tags/man_made.md)
 - [Military](./tags/military.md)
 - [Natural](./tags/natural.md)
+- [Office](./tags/office.md)
