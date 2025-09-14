@@ -91,3 +91,7 @@ A [`Place`](../tags/place.md) tag with its fields.
 ### `power`
 
 A [`Power`](../tags/power.md) tag with its fields.
+
+### `public_transport`
+
+A [`PublicTransport`](../tags/public_transport.md) tag with its fields.

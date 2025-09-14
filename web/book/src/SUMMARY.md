@@ -32,3 +32,4 @@
 - [Office](./tags/office.md)
 - [Place](./tags/place.md)
 - [Power](./tags/power.md)
+- [PublicTransport](./tags/public_transport.md)

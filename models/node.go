@@ -9,26 +9,27 @@ import (
 )
 
 type Node struct {
-	Addr       *tags.Addr       `yaml:"addr,omitempty"`
-	Aerialway  *tags.Aerialway  `yaml:"aerialway,omitempty"`
-	Aeroway    *tags.Aeroway    `yaml:"aeroway,omitempty"`
-	Amenity    *tags.Amenity    `yaml:"amenity,omitempty"`
-	Barrier    *tags.Barrier    `yaml:"barrier,omitempty"`
-	Boundary   *tags.Boundary   `yaml:"boundary,omitempty"`
-	Building   *tags.Building   `yaml:"building,omitempty"`
-	Craft      *tags.Craft      `yaml:"craft,omitempty"`
-	Emergency  *tags.Emergency  `yaml:"emergency,omitempty"`
-	Geological *tags.Geological `yaml:"geological,omitempty"`
-	Healthcare *tags.Healthcare `yaml:"healthcare,omitempty"`
-	Historic   *tags.Historic   `yaml:"historic,omitempty"`
-	Landuse    *tags.Landuse    `yaml:"landuse,omitempty"`
-	Leisure    *tags.Leisure    `yaml:"leisure,omitempty"`
-	ManMade    *tags.ManMade    `yaml:"man_made,omitempty"`
-	Military   *tags.Military   `yaml:"military,omitempty"`
-	Natural    *tags.Natural    `yaml:"natural,omitempty"`
-	Office     *tags.Office     `yaml:"office,omitempty"`
-	Place      *tags.Place      `yaml:"place,omitempty"`
-	Power      *tags.Power      `yaml:"power,omitempty"`
+	Addr            *tags.Addr            `yaml:"addr,omitempty"`
+	Aerialway       *tags.Aerialway       `yaml:"aerialway,omitempty"`
+	Aeroway         *tags.Aeroway         `yaml:"aeroway,omitempty"`
+	Amenity         *tags.Amenity         `yaml:"amenity,omitempty"`
+	Barrier         *tags.Barrier         `yaml:"barrier,omitempty"`
+	Boundary        *tags.Boundary        `yaml:"boundary,omitempty"`
+	Building        *tags.Building        `yaml:"building,omitempty"`
+	Craft           *tags.Craft           `yaml:"craft,omitempty"`
+	Emergency       *tags.Emergency       `yaml:"emergency,omitempty"`
+	Geological      *tags.Geological      `yaml:"geological,omitempty"`
+	Healthcare      *tags.Healthcare      `yaml:"healthcare,omitempty"`
+	Historic        *tags.Historic        `yaml:"historic,omitempty"`
+	Landuse         *tags.Landuse         `yaml:"landuse,omitempty"`
+	Leisure         *tags.Leisure         `yaml:"leisure,omitempty"`
+	ManMade         *tags.ManMade         `yaml:"man_made,omitempty"`
+	Military        *tags.Military        `yaml:"military,omitempty"`
+	Natural         *tags.Natural         `yaml:"natural,omitempty"`
+	Office          *tags.Office          `yaml:"office,omitempty"`
+	Place           *tags.Place           `yaml:"place,omitempty"`
+	Power           *tags.Power           `yaml:"power,omitempty"`
+	PublicTransport *tags.PublicTransport `yaml:"public_transport,omitempty"`
 }
 
 func (n *Node) ToOQL() string {
