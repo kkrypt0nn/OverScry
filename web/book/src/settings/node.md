@@ -75,3 +75,7 @@ A [`ManMade`](../tags/man_made.md) tag with its fields.
 ### `military`
 
 A [`Military`](../tags/military.md) tag with its fields.
+
+### `natural`
+
+A [`Natural`](../tags/natural.md) tag with its fields.

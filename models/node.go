@@ -25,6 +25,7 @@ type Node struct {
 	Leisure    *tags.Leisure    `yaml:"leisure,omitempty"`
 	ManMade    *tags.ManMade    `yaml:"man_made,omitempty"`
 	Military   *tags.Military   `yaml:"military,omitempty"`
+	Natural    *tags.Natural    `yaml:"natural,omitempty"`
 }
 
 func (n *Node) ToOQL() string {
