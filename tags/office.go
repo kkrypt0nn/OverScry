@@ -190,7 +190,7 @@ var validOfficeTypes = map[string]OfficeType{
 // https://wiki.openstreetmap.org/wiki/Key:office
 type Office Feature
 
-func (o *Office) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (o *Office) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

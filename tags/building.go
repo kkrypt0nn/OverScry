@@ -417,7 +417,7 @@ type Building struct {
 	SoftStorey *Feature `yaml:"soft_storey,omitempty"`
 }
 
-func (b *Building) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (b *Building) UnmarshalYAML(unmarshal func(any) error) error {
 	temp := &struct {
 		Value *string     `yaml:"value,omitempty"`
 		Match MatchMethod `yaml:"match,omitempty"`

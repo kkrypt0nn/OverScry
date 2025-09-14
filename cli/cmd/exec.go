@@ -65,7 +65,7 @@ var execCmd = &cobra.Command{
 		}
 
 		var temp struct {
-			Elements []map[string]interface{} `json:"elements"`
+			Elements []map[string]any `json:"elements"`
 		}
 
 		err = json.Unmarshal(body, &temp)

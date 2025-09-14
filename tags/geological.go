@@ -85,7 +85,7 @@ var validGeologicalTypes = map[string]GeologicalType{
 // https://wiki.openstreetmap.org/wiki/Key:geological
 type Geological Feature
 
-func (g *Geological) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (g *Geological) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

@@ -154,7 +154,7 @@ var validManMadeTypes = map[string]ManMadeType{
 // https://wiki.openstreetmap.org/wiki/Key:man_made
 type ManMade Feature
 
-func (m *ManMade) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (m *ManMade) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

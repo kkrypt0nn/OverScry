@@ -67,7 +67,7 @@ var validPowerTypes = map[string]PowerType{
 // https://wiki.openstreetmap.org/wiki/Power
 type Power Feature
 
-func (p *Power) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (p *Power) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

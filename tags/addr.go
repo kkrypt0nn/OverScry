@@ -69,7 +69,7 @@ type Addr struct {
 	County *Feature `yaml:"county,omitempty"`
 }
 
-func (a *Addr) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (a *Addr) UnmarshalYAML(unmarshal func(any) error) error {
 	temp := &struct {
 		HouseNumber        *Feature `yaml:"housenumber,omitempty"`
 		HouseName          *Feature `yaml:"housename,omitempty"`

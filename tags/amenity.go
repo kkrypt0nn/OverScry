@@ -475,7 +475,7 @@ var validAmenityTypes = map[string]AmenityType{
 // https://wiki.openstreetmap.org/wiki/Key:amenity
 type Amenity Feature
 
-func (a *Amenity) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (a *Amenity) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

@@ -193,7 +193,7 @@ var validHistoricTypes = map[string]HistoricType{
 // https://wiki.openstreetmap.org/wiki/Historic
 type Historic Feature
 
-func (h *Historic) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (h *Historic) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

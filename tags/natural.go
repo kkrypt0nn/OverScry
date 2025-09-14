@@ -125,7 +125,7 @@ var validNaturalTypes = map[string]NaturalType{
 // https://wiki.openstreetmap.org/wiki/Key:natural
 type Natural Feature
 
-func (n *Natural) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (n *Natural) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

@@ -91,7 +91,7 @@ var validHealthcareTypes = map[string]HealthcareType{
 // https://wiki.openstreetmap.org/wiki/Healthcare
 type Healthcare Feature
 
-func (h *Healthcare) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (h *Healthcare) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

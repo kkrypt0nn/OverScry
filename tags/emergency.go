@@ -96,7 +96,7 @@ var validEmergencyTypes = map[string]EmergencyType{
 // https://wiki.openstreetmap.org/wiki/Emergency_facilities_and_amenities
 type Emergency Feature
 
-func (e *Emergency) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (e *Emergency) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

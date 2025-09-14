@@ -28,7 +28,7 @@ var validAerialwayTypes = map[string]AerialwayType{
 // https://wiki.openstreetmap.org/wiki/Map_features#Aerialway
 type Aerialway Feature
 
-func (a *Aerialway) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (a *Aerialway) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

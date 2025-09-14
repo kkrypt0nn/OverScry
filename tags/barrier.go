@@ -120,7 +120,7 @@ var validBarrierTypes = map[string]BarrierType{
 // https://wiki.openstreetmap.org/wiki/Barriers
 type Barrier Feature
 
-func (b *Barrier) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (b *Barrier) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

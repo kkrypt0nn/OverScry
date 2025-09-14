@@ -322,7 +322,7 @@ var validCraftTypes = map[string]CraftType{
 // https://wiki.openstreetmap.org/wiki/Key:craft
 type Craft Feature
 
-func (c *Craft) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (c *Craft) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

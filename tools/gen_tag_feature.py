@@ -27,7 +27,7 @@ var {{VALID_TYPES}} = map[string]{{TYPE}}{
 // https://wiki.openstreetmap.org/wiki/CHANGEME
 type {{CAPITALIZED_TAG}} Feature
 
-func ({{FIRST_CHAR}} *{{CAPITALIZED_TAG}}) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func ({{FIRST_CHAR}} *{{CAPITALIZED_TAG}}) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

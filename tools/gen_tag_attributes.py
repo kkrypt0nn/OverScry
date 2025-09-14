@@ -16,7 +16,7 @@ type {{CAPITALIZED_TAG}} struct {
 	ChangeMe *Feature `yaml:"changeme,omitempty"`
 }
 
-func ({{FIRST_CHAR}} *{{CAPITALIZED_TAG}}) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func ({{FIRST_CHAR}} *{{CAPITALIZED_TAG}}) UnmarshalYAML(unmarshal func(any) error) error {
 	temp := &struct {
 		ChangeMe *Feature `yaml:"changeme,omitempty"`
 	}{}

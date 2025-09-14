@@ -31,7 +31,7 @@ var validPublicTransportTypes = map[string]PublicTransportType{
 // https://wiki.openstreetmap.org/wiki/Public_transport
 type PublicTransport Feature
 
-func (p *PublicTransport) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (p *PublicTransport) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

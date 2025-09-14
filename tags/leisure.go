@@ -121,7 +121,7 @@ var validLeisureTypes = map[string]LeisureType{
 // https://wiki.openstreetmap.org/wiki/Leisure
 type Leisure Feature
 
-func (l *Leisure) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (l *Leisure) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

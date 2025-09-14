@@ -129,7 +129,7 @@ var validLanduseTypes = map[string]LanduseType{
 // https://wiki.openstreetmap.org/wiki/Landuse
 type Landuse Feature
 
-func (l *Landuse) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (l *Landuse) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

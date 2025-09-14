@@ -25,7 +25,7 @@ var validBoundaryTypes = map[string]BoundaryType{
 // https://wiki.openstreetmap.org/wiki/Key:boundary
 type Boundary Feature
 
-func (b *Boundary) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (b *Boundary) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err

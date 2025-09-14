@@ -138,7 +138,7 @@ type Place struct {
 	IsIn *Feature `yaml:"is_in,omitempty"`
 }
 
-func (p *Place) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (p *Place) UnmarshalYAML(unmarshal func(any) error) error {
 	temp := &struct {
 		Value *string     `yaml:"value,omitempty"`
 		Match MatchMethod `yaml:"match,omitempty"`

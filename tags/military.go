@@ -58,7 +58,7 @@ var validMilitaryTypes = map[string]MilitaryType{
 // https://wiki.openstreetmap.org/wiki/Military
 type Military Feature
 
-func (m *Military) UnmarshalYAML(unmarshal func(interface{}) error) error {
+func (m *Military) UnmarshalYAML(unmarshal func(any) error) error {
 	var f Feature
 	if err := unmarshal(&f); err != nil {
 		return err
