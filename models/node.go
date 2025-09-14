@@ -28,6 +28,7 @@ type Node struct {
 	Natural    *tags.Natural    `yaml:"natural,omitempty"`
 	Office     *tags.Office     `yaml:"office,omitempty"`
 	Place      *tags.Place      `yaml:"place,omitempty"`
+	Power      *tags.Power      `yaml:"power,omitempty"`
 }
 
 func (n *Node) ToOQL() string {

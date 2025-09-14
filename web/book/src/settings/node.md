@@ -87,3 +87,7 @@ A [`Office`](../tags/office.md) tag with its fields.
 ### `place`
 
 A [`Place`](../tags/place.md) tag with its fields.
+
+### `power`
+
+A [`Power`](../tags/power.md) tag with its fields.

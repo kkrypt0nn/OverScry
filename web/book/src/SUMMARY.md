@@ -31,3 +31,4 @@
 - [Natural](./tags/natural.md)
 - [Office](./tags/office.md)
 - [Place](./tags/place.md)
+- [Power](./tags/power.md)

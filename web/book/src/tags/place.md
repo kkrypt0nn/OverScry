@@ -6,9 +6,8 @@ A [`Feature`](../settings/feature.md) that is used to give details about settlem
 place:
   value: region
   match: equals
-  levels:
-    value: 2
-    match: equals
+  population:
+    value: 1337
 ```
 
 The following fields are allowed
