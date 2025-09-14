@@ -83,3 +83,7 @@ A [`Natural`](../tags/natural.md) tag with its fields.
 ### `office`
 
 A [`Office`](../tags/office.md) tag with its fields.
+
+### `place`
+
+A [`Place`](../tags/place.md) tag with its fields.
