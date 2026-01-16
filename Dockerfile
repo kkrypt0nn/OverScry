@@ -1,6 +1,6 @@
 FROM debian:bookworm-slim AS base
 
-FROM golang:1.25.5-bookworm AS builder
+FROM golang:1.25.6-bookworm AS builder
 COPY --from=base / /
 WORKDIR /app
 ADD . /app
