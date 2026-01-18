@@ -14,6 +14,9 @@
 
 </div>
 
+> [!NOTE]
+> I've put the project **on hold** for now, I will work on it again once I have more time.
+
 > [!CAUTION]
 > This is a WIP tool that is **very unstable** and **not fully optimised**, use at your own care! This README will also be reworked.
 
